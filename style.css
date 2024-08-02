@@ -64,7 +64,7 @@ nav ul {
     height: 250px;
 }
 
-.hero .card {
+.hero .header {
     flex: 1 1 200px;
 }
 
@@ -73,12 +73,12 @@ nav ul {
     color: #e5e7eb;
 }
 
-.card .title {
+.header .title {
     font-size: 48px;
     font-weight: 800;
 }
 
-.card .button {
+.header .button {
     color: #f9faf8;
     background-color: #3882f6;
     padding: 8px 24px;
