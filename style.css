@@ -1,3 +1,40 @@
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.dark-bg {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+nav {
+    flex-shrink: 0;
+    padding: 16px;
+}
+
+nav ul {
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    margin: auto;
+    padding: 0;
+    max-width: 950px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
 }
