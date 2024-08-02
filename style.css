@@ -91,6 +91,10 @@ nav ul {
     margin-top: 8px;
 }
 
+.button:hover {
+    cursor: pointer;
+}
+
 .info .container {
     flex-direction: column;
     gap: 44px;
