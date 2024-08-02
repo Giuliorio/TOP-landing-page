@@ -176,3 +176,11 @@ nav ul {
 .call-to-action .button {
     outline: 2px solid #f9faf8;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 32px;
+}
