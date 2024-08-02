@@ -17,6 +17,11 @@ a {
     color: #f9faf8;
 }
 
+.grey-bg {
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
 nav {
     flex-shrink: 0;
     padding: 16px;
@@ -116,4 +121,26 @@ nav ul {
     height: 150px;
     outline: 5px solid #3882f6;
     border-radius: 10px;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 800px;
+    height: 250px;
+}
+
+.quote .text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote .author {
+    font-weight: 600;
+    font-size: 24px;
+    align-self: flex-end;
 }
