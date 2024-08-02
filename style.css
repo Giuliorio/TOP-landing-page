@@ -38,3 +38,52 @@ nav ul {
     margin-right: auto;
     font-size: 24px;
 }
+
+.container {
+    max-width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 52px 16px;
+}
+
+.hero .container {
+    height: 350px;
+}
+
+.hero .image {
+    background-color: grey;
+    flex: 1 1 200px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 250px;
+}
+
+.hero .card {
+    flex: 1 1 200px;
+}
+
+.hero .text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.card .title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.card .button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    text-align: center;
+    width: 72px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
